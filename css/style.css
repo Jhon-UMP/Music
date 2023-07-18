@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2? family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open+Sans:wght@300&display=swap', sans-serif;
+}
+.container{
+    background-image: url(/images/angel.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1400px;
+}
+.titulo1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.musica1{
+    overflow: hidden;
+}
+.musica1 img{
+    float: right;
+    margin-right: 350px;
+    height: 950px;
+    margin-top: -600px;
+}
+.musica1 h2 {
+    float: left;
+    margin-left: 400px;
+    font-size: 90px;
+    margin-top: 150px;
+}
+.musica1 h2 span{
+    background-color: #fa4a54;
+    background: linear-gradient(to right, #fa4a54, #db036f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.musica1 p {
+    display: block;
+    margin-top: 40px;
+    font-size: 28px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+.musica1 button{
+    display: block;
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 40px;
+    background-color: #fd4c5c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 290px;
+    height: 80px;
+}
+.musica2{
+    overflow: hidden;
+    margin-top: 100px;
+}
+.musica2 img {
+    float: left;
+    margin-left: 340px;
+    height: 950px;
+}
+.musica2 h3 {
+    float: right;
+    margin-right: 50px;
+    font-size: 90px;
+    margin-top: 150px;
+}
+.musica2 h3 span{
+    background-color: #fa4a54;
+    background: linear-gradient(to right, #fa4a54, #db036f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.musica2 p {
+    float: right;
+    margin-top: 500px;
+    font-size: 28px;
+    margin-right: -770px;
+    width: 30%;
+}
+.musica2 button {
+    float: right;
+    margin-top: 720px;
+    margin-right: -285px;
+    border-radius: 40px;
+    background-color: #fd4c5c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 290px;
+    height: 80px;
+}
+.musica3{
+    overflow: hidden;
+    background-image: url(/images/raptis.png);
+    background-size: cover;
+    background-position: center;
+    height: 1300px;
+}
+.musica3 h4{
+    float: right;
+    margin-right: 350px;
+    font-size: 100px;
+    color: white;
+    margin-top: 240px;
+}
+.musica3 p{
+    float: right;
+    margin-right: -885px;
+    margin-top: 550px;
+    width: 35%;
+    font-size: 36px;
+    color: white;
+}
+.musica3 button{
+    float: right;
+    margin-top: 790px;
+    margin-right: -290px;
+    border-radius: 40px;
+    background-color: #fd4c5c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 290px;
+    height: 80px;
+}
+footer{
+    overflow: hidden;
+    background-color: #fd4c5c;
+    background: linear-gradient(to right, #fd3e5c, #fd2e5c);
+    color: white;
+    height: 900px;
+}
+#lista1{
+    overflow: hidden;
+    float: left;
+    margin-left: 253px;
+    margin-top: 100px;
+    font-size: 22px;
+}
+#lista1 ul li{
+    margin-bottom: 40px;
+}
+#lista2{
+    overflow: hidden;
+    float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 22px;
+}
+#lista2 ul li{
+    margin-bottom: 40px;
+}
+#lista3{
+    overflow: hidden;
+    float: right;
+    margin-right: 1250px;
+    margin-top: 100px;
+    font-size: 22px;
+}
+#lista3 ul li{
+    margin-bottom: 40px;
+}
+#lista3{
+    margin-bottom: 40px;
+}
+#lista4{
+    overflow: hidden;
+    float: right;
+    margin-right: -600px;
+    margin-top: 100px;
+    font-size: 22px;
+}
+#lista4 ul li{
+    margin-bottom: 40px;
+}
+#separador{
+    background-color: white;
+    margin-left: 250px;
+    height: 2px;
+    width: 80%;
+    clear: both;
+}
+#creditos{
+    margin-top: 50px;
+    font-size: 22px;
+    margin-left: 250px
+}
+#correo{
+    float: right;
+    margin-right: 250px;
+    font-size: 22px;
+    margin-top: -23px;
+}
